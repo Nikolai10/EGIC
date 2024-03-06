@@ -4,15 +4,14 @@
 
 ## Abstract
 
-We introduce EGIC, a novel generative image compression method that allows traversing the distortion-perception
-curve efficiently from a single model. Specifically, we propose an implicitly encoded variant of image interpolation
-that predicts the residual between a MSE-optimized and
-GAN-optimized decoder output. On the receiver side, the
-user can then control the impact of the residual on the
-GAN-based reconstruction. Together with improved GAN-based building blocks, EGIC outperforms a wide-variety of
-perception-oriented and distortion-oriented baselines, including HiFiC, MRIC and DIRAC, while performing almost
-on par with VTM-20.0 on the distortion end. EGIC is simple
-to implement, very lightweight (e.g. 0.18× model parameters compared to HiFiC) and provides excellent interpolation characteristics, which makes it a promising candidate
+We introduce EGIC, an enhanced generative image compression method that allows traversing the distortion-perception 
+curve efficiently from a single model. EGIC is based on two novel building blocks: i) OASIS-C, a conditional pre-trained semantic 
+segmentation-guided discriminator, which provides both spatially and semantically-aware gradient feedback to the generator, 
+conditioned on the latent image distribution, and ii) Output Residual Prediction (ORP), a retrofit solution for multi-realism 
+image compression that allows control over the synthesis process by adjusting the impact of the residual between an MSE-optimized 
+and GAN-optimized decoder output on the GAN-based reconstruction. Together, EGIC forms a powerful codec, outperforming state-of-the-art 
+diffusion and GAN-based methods (e.g., HiFiC, MS-ILLM, and DIRAC-100), while performing almost on par with VTM-20.0 on the distortion end. 
+EGIC is simple to implement, very lightweight, and provides excellent interpolation characteristics, which makes it a promising candidate 
 for practical applications targeting the low bit range.
 
 <div align=center>
@@ -20,4 +19,4 @@ for practical applications targeting the low bit range.
 </div>
 
 
-<p align="center"><em>Distortion-perception comparison. Top left is better.</em></p>
+<p align="center"><em>Distortion-perception comparison. Top left is best.</em></p>
