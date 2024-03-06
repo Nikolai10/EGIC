@@ -15,7 +15,7 @@ EGIC is simple to implement, very lightweight, and provides excellent interpolat
 for practical applications targeting the low bit range.
 
 <div align=center>
-<img src="./doc/assets/teaser_clic2020_v2.png" width="70%">
+<img src="./doc/assets/teaser_clic2020_v2.png" width="60%">
 </div>
 
 
