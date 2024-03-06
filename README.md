@@ -1,8 +1,6 @@
 # EGIC (TensorFlow 2)
 
 > **EGIC: Enhanced Low-Bit-Rate Generative Image Compression Guided by Semantic Segmentation** <br>
-> Nikolai Körber, Eduard Kromer, Andreas Siebert, Sascha Hauke, Daniel Mueller-Gritschneder <br>
-> ArXiv 2309.03244
 
 ## Abstract
 
