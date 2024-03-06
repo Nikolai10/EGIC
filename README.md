@@ -18,7 +18,7 @@ to implement, very lightweight (e.g. 0.18× model parameters compared to HiFiC) 
 for practical applications targeting the low bit range.
 
 <div align=center>
-<img src="./doc/assets/teaser_clic2020.png" width="70%">
+<img src="./doc/assets/teaser_clic2020_v2.png" width="70%">
 </div>
 
 
