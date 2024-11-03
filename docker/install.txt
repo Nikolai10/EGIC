@@ -1,0 +1,4 @@
+# Step 0 (Prerequisite): Install Tensorflow/ Docker, see https://www.tensorflow.org/install/docker for more details.
+
+# Step 1: Install Docker image (+mount volume // adjust to your needs)
+docker run --ipc=host --gpus all -it --rm --name tensorflow_2_14_0_gpu_jupyter -v /home/kiadmin/projects/nikolai10:/tf/notebooks -p 8890:8888 -p 6010:6010 -p 6011:6011 -p 6012:6012 tensorflow/tensorflow:2.14.0-gpu-jupyter
