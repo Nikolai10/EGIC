@@ -30,7 +30,7 @@ applications targeting the low bit range.
 
 ## Updates
 
-***03/11/2024***
+***11/03/2024***
 
 1. Initial release of this project
 
